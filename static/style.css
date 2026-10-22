@@ -1,0 +1,7 @@
+body{
+counter-reset:fur;
+}
+li::before{
+    counter-increment:fur 2;
+    content: counter(fur)".";
+}
